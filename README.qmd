@@ -8,7 +8,8 @@ execute:
   message: false
 editor: visual
 ---
-
+# I am making a change in the read me file for the in class activity. 
+# I will then commit these changes.
 Report last run: `r Sys.time()`
 
 ## Introduction

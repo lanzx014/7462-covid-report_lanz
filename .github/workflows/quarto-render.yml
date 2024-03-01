@@ -1,5 +1,10 @@
 on: [workflow_dispatch]
 
+on:
+  schedule:
+    # defining a time for workflow schedule to automatically run
+    - cron:  '30 5 * * *'
+
 # Un-comment the following lines (and comment out the first one) to make this a scheduled job
 #on:
 #  schedule:
